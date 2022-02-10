@@ -10,21 +10,21 @@
 
 <body>
     <section class=" grid grid-rows-2 mt-16 h-80 gap-1">
-    <div class=" grid  grid-cols-3 md:grid-cols-3 h-32 sm:grid-cols-3 gap-4 w-1/2 mx-auto">
-        <div class=" text-center py-8  lg:text-3xl text-lg font-bold  rounded-lg bg-green-200">Deposit <br>$<span id="previous-deposit-text">0</span> </div>
-        <div class=" text-center py-8  lg:text-3xl text-lg font-bold  rounded-lg bg-red-200">Withdraw  <br>$<span id="previous-withdraw-text">0</span> </div>
-        <div class=" text-center py-8  lg:text-3xl text-lg font-bold  rounded-lg bg-blue-200">Balance  <br>$<span id="previous-balance-text">3000</span> </div>
+    <div class=" grid  grid-cols-3 md:grid-cols-3 h-32 sm:grid-cols-3 gap-3 w-5/6 md:w-1/2 lg:w-1/2 mx-auto">
+        <div class=" text-center py-8  lg:text-3xl md:text-2xl text-sm px-1 font-bold  rounded-lg bg-green-200">Deposit <br>$<span id="previous-deposit-text">0</span> </div>
+        <div class=" text-center py-8  lg:text-3xl md:text-2xl text-sm px-1 font-bold  rounded-lg bg-red-200">Withdraw  <br>$<span id="previous-withdraw-text">0</span> </div>
+        <div class=" text-center py-8  lg:text-3xl md:text-2xl text-sm px-1 font-bold  rounded-lg bg-blue-200">Balance  <br>$<span id="previous-balance-text">3000</span> </div>
     </div>
-    <div class="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 h-40 gap-6 w-1/2 mx-auto">
+    <div class="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 h-40 gap-6 w-5/6 md:w-1/2 lg:w-1/2 mx-auto">
         <div class="bg-yellow-200 px-3 py-4 rounded-lg ">
-            <h1 class="text-lg font-bold md:text-2xl lg:text-2xl">Please Deposit</h1>
-            <input id="current-deposit-text" class="my-3 px-2 py-1 w-3/4 block rounded-lg" type="text" placeholder="$amount you want to deposit">
-            <button  id="deposit-btn" class="text-lg font-bold bg-yellow-400 px-3 py-1 rounded-lg md:text-2xl lg:text-2xl">Deposit</button>
+            <h1 class="text-base font-bold md:text-2xl lg:text-2xl">Please Deposit</h1>
+            <input id="current-deposit-text" class="my-3 px-2 py-1 w-3/4 block rounded-lg " type="text" placeholder="$amount you want to deposit">
+            <button  id="deposit-btn" class="text-xs font-bold bg-yellow-400 px-1 py-1 rounded-lg md:text-2xl lg:text-2xl w-5/6">Deposit</button>
         </div>
-        <div class=" bg-blue-300 px-3 py-4 rounded-lg"> 
-            <h1 class="text-lg font-bold md:text-2xl lg:text-2xl">Please Withdraw</h1>
+        <div class=" bg-blue-300 px-3 py-4 rounded-lg "> 
+            <h1 class="text-base font-bold md:text-2xl lg:text-2xl">Please Withdraw</h1>
             <input  id="current-withdraw-text" class="my-3 px-2 py-1 w-3/4 block rounded-lg" type="text" placeholder="$amount you want to deposit">
-            <button  id="withdraw-btn"class="text-lg font-bold bg-blue-600 px-3 py-1 rounded-lg md:text-2xl lg:text-2xl">Withdraw</button>
+            <button  id="withdraw-btn"class="text-xs font-bold bg-blue-600 px-1 py-1 rounded-lg md:text-2xl lg:text-2xl  text-center">Withdraw</button>
         </div>
     </div>
     </section>
