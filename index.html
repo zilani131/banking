@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+ 
     <title>Document</title>
 </head>
 <body>
-    <header>My Baper Bank!!</header>
+    <header class="text-center  text-4xl font-bold mt-16 mb-3 ">My Baper Bank!!</header>
+    <main>
+        <div class="bg-green-400 w-3/4 mx-auto p-5 rounded-3xl">
+            <input id="email-confirmation"type="email" placeholder="Please enter your email" class="w-3/4 mb-3 p-2 block rounded-lg mx-auto">
+            <input id="password-confirmation" type="password" placeholder="Please enter your password" class="w-1/2 p-2 block mb-3 rounded-lg mx-auto">
+               <button id="submit-btn" class="p-3 bg-red-200 text-blcak font-bold text-xl rounded-lg mx-auto block">submit</button>
+        </div>
+    </main>
+       <script src="index.js"></script>
 </body>
 </html>
